@@ -7,6 +7,13 @@ Basic setup and testing of kafka setup using Docker
 1) Start docker
 	docker-compose up -d
 
+	Create dirs in case of errors
+	./kafka_data
+	./zookeeper_data
+	./zookeeper_data/zk-data
+	./zookeeper_data/zk-txn-logs
+
+
 2) kafkacat to test basic kafka connections
 
 	Listener BOB (port 29092) for internal traffic on the Docker network
