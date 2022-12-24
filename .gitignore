@@ -1,0 +1,4 @@
+*/.DS_Store
+kafka_data/*
+zookeeper_data/zk-data/*
+zookeeper_data/zk-txn-logs/*
