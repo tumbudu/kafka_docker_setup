@@ -21,7 +21,7 @@ Basic setup and testing of kafka setup using Docker
 
 
 3) Connect to kafka container
-	docker exec -it kafa_demo_kafka0_1 bash
+	docker exec -it kafka_docker_setup_kafka0_1 bash
 
 4) Create topic
 	kafka-topics --create --topic testvg --bootstrap-server kafka0:29092 --partitions 1 --replication-factor 1
